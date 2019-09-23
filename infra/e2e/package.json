@@ -1,0 +1,11 @@
+{
+  "name": "@mv/e2e",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "5.12.1",
+    "codeceptjs": "2.3.1",
+    "protractor": "5.4.2"
+  }
+}

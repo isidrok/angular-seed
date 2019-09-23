@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "../..",
+    "rootDir": "../..",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "esnext",
+    "typeRoots": [
+      "../../node_modules/@types"
+    ],
+    "paths": {
+      "@mv/*": [
+        "client/*/index.ts"
+      ]
+    },
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+  },
+  "angularCompilerOptions": {
+    "enableIvy": true
+  }
+}

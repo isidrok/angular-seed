@@ -1,0 +1,12 @@
+{
+  "name": "@mv/app",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@mv/router-registry": "0.0.0"
+  },
+  "__processed_by_ivy_ngcc__": {
+    "main": "8.2.7"
+  }
+}

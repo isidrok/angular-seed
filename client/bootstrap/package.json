@@ -1,0 +1,9 @@
+{
+  "name": "@mv/bootstrap",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@mv/app": "0.0.0"
+  }
+}
